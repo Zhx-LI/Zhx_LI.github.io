@@ -1,11 +1,12 @@
 .container {
     position: relative;
-    width: 50%;
+    width: 140px;
+    height: 140px;
   }
   
   .image {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
   }
   
@@ -19,7 +20,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #1aa0cd;
   }
   
   .container:hover .overlay {
@@ -28,7 +29,7 @@
   
   .text {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: '黑体';
     position: absolute;
     top: 50%;
