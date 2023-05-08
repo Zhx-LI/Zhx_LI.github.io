@@ -3,22 +3,47 @@
   <title>个人主页</title>
   <link rel="stylesheet" type="text/css" href="container.css">
   <style>
-  h1
-  {
-    text-align: center;
-    font-family: '黑体';
-    font-size: 40;
-  }
-  p.main
-  {
-    text-align: justify;
-    font-family: '宋体';
-    font-size: 24;
-  }
-  body
-  {
-    background-color:#b0c4de;
-  }
+    bl a:link {text-decoration:none; color:#ffffff;}    /* unvisited link */
+    bl a:visited {text-decoration:none; color:#ffffff;} /* visited link */
+    bl a:hover {text-decoration:none; color:#000000;}   /* mouse over link */
+    bl a:active {text-decoration:none;}  /* selected link */
+    h1
+    {
+      text-align: center;
+      font-family: '黑体';
+      font-size: 40;
+    }
+    p.main
+    {
+      text-align: justify;
+      font-family: '宋体';
+      font-size: 24;
+    }
+    body
+    {
+      background-color:#b0c4de;
+    }
+    
+    ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	width: 200px;
+    	background-color: #f1f1f1;
+	  }
+ 
+    li a {
+    	display: block;
+    	color: black;
+    	padding: 8px 16px;
+    	text-decoration: none;
+	  }
+ 
+    /* 鼠标移动到选项上修改背景颜色 */
+    li a:hover {
+    	background-color: #555;
+    	color: white;
+	  }
   </style>
 </head>
 
@@ -32,8 +57,16 @@
 src="https://www.tongji.edu.cn/images/badge.png"
 alt="Avatar" class="image">
   <div class="overlay">
-    <div class="text"><a href="https://www.tongji.edu.cn" target="new front">同济大学</a></div>
+    <div class="text"><bl><a href="https://www.tongji.edu.cn" target="new front">同济大学</a></bl></div>
   </div>
 </div>
-
+  
+<ul>
+  <li><a href="#home">主页</a></li>
+  <li><a href="#news">教育经历</a></li>
+  <li><a href="#contact">工作实习</a></li>
+  <li><a href="#about">科研成果</a></li>
+  <li><a href="#about">联系方式</a></li>
+</ul> 
+  
 </body>
