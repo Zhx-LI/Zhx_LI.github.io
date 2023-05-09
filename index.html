@@ -3,27 +3,26 @@
   <title>个人主页</title>
   <link rel="stylesheet" type="text/css" href="container.css">
   <style>
+    #background {
+    background-image: url(https://scpic.chinaz.net/files/pic/pic9/201906/zzpic18597.jpg);
+    background-size: 100% 100%;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    }
     bl a:link {text-decoration:none; color:#ffffff;}    /* unvisited link */
     bl a:visited {text-decoration:none; color:#ffffff;} /* visited link */
     bl a:hover {text-decoration:none; color:#000000;}   /* mouse over link */
     bl a:active {text-decoration:none;}  /* selected link */
-    h1
-    {
+    h1{
       text-align: center;
       font-family: '黑体';
       font-size: 40;
     }
-    p.main
-    {
+    p.main{
       text-align: justify;
       font-family: '宋体';
       font-size: 24;
-    }
-    body
-    {
-      background-color:#b0c4de;
-    }
-    
+    }   
     ul {
     	list-style-type: none;
     	margin: 0;
@@ -31,14 +30,12 @@
     	width: 200px;
     	background-color: #f1f1f1;
 	  }
- 
     li a {
     	display: block;
     	color: black;
     	padding: 8px 16px;
     	text-decoration: none;
 	  }
- 
     /* 鼠标移动到选项上修改背景颜色 */
     li a:hover {
     	background-color: #555;
@@ -48,6 +45,8 @@
 </head>
 
 <body>
+
+<div id="background">
 
 <h1>个人主页</h1>
 <p class="main">你好世界！我是来自同济大学的ZX L</p>
@@ -68,5 +67,5 @@ alt="Avatar" class="image">
   <li><a href="#about">科研成果</a></li>
   <li><a href="#about">联系方式</a></li>
 </ul> 
-  
+</div>  
 </body>
